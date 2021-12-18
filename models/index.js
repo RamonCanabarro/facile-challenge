@@ -1,7 +1,7 @@
 const sequelize = require("sequelize");
-const dbConfig = require("../config/db.config")
+const dbConfig = require("../config/config")
 
-const Encript = require("./models/encript.model")
+const Encript = require("./encript.model")
 
 const connection = new sequelize(dbConfig)
 

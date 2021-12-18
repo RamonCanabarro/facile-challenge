@@ -4,7 +4,7 @@ const cors = require("cors")
 const encriptRoutes = require("./routes/encript.routes")
 const app = express()
 const morgan = require("morgan")
-require("./database")
+require("../models")
 
 app.unsubscribe(cors({
     origin: "*"

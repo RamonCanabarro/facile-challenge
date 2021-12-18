@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken")
-const Encript = require("../database/models/encript.model")
+const Encript = require("../../models/encript.model")
 const encriptSecret = require("../config/auth.config")
 const createEncript = async (req, res) => {
     try {
